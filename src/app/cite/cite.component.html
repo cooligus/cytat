@@ -1,0 +1,22 @@
+<div *ngIf="!fail()">
+  <div
+    [class]="hide() === true ? '' : 'hidden'"
+    class="hiddenable absolute-top"
+  >
+    <p-skeleton styleClass="mb-2" borderRadius="16px"></p-skeleton>
+    <p-skeleton styleClass="mb-2" borderRadius="16px"></p-skeleton>
+    <p-skeleton styleClass="mb-2" borderRadius="16px"></p-skeleton>
+    <p-skeleton styleClass="mb-2" borderRadius="16px"></p-skeleton>
+    <p-skeleton styleClass="mb-2" borderRadius="16px"></p-skeleton>
+  </div>
+  <div [class]="hide() === true ? 'hidden' : ''" class="hiddenable">
+    <div *ngIf="cite().verses">
+      <span *ngFor="let verse of cite().verses">
+        <span class="bigga-verso">
+          {{ verse.verse }}
+        </span>
+        {{ verse.text }}
+      </span>
+    </div>
+  </div>
+</div>

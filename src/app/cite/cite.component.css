@@ -1,0 +1,22 @@
+.hidden {
+    opacity: 0 !important;
+}
+
+.hiddenable {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    opacity: 1;
+    transition: opacity ease-in-out .5s;
+    width: 100%;
+}
+
+.absolute-top {
+    top: 0;
+    position: absolute;
+}
+
+.bigga-verso {
+    vertical-align: super;
+    font-size: .5em;
+}
