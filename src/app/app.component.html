@@ -1,1 +1,11 @@
-<router-outlet></router-outlet>
+<div class="center">
+  <div class="header">
+  <p-button label="Losuj cytat" (onClick)="newCite()"></p-button>
+  <span>
+  {{ book }} {{ citeParams().chapter }}, {{ citeParams().start }}-{{citeParams().end}}
+  </span>
+  </div>
+</div>
+<div class="container">
+  <app-cite></app-cite>
+</div>

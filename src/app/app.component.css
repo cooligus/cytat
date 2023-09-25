@@ -1,0 +1,14 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 2em;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    gap: .5em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
