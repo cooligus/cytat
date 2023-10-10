@@ -1,27 +1,29 @@
-# RandomVerse
+# Moist Chocolate Cake
+Related Recipes: White Mountain Cream Icing for Cakes
+Yield: 10 servings
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## Ingredients
+   - 1/3 cup butter
+   - 1 cup flour
+   - 1 cup sugar
+   - 1 1/3 teaspoon baking powder
+   - 2 eggs
+   - 1/2 teaspoon cinnamon
+   - 1/2 cup hot mashed potatoes
+   - 1/4 teaspoon clove
+   - 1 ounce melted chocolate
+   - 1/2 teaspoon nutmeg
+   - 1/4 cup milk
+   - 1 teaspoon vanilla
 
-## Development server
+## Directions
+   - Mix well.
+   - Cream the butter, add the sugar.
+   - Add the egg yolks, slightly beaten, and the potato.
+   - Stir, add the chocolate, milk and then all the dry ingredients which have been mixed and sifted together.
+   - Fold in the white of the eggs beaten stiffly.
+   - Add the vanilla.
+   - Pour into two layer-cake pans which have been prepared with waxed paper.
+   - Bake in a moderate oven for thirty minutes.
+   - Ice with white mountain cream icing.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
