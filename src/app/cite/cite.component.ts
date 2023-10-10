@@ -7,7 +7,7 @@ import { Cite } from './cite';
   templateUrl: './cite.component.html',
   styleUrls: ['./cite.component.css'],
 })
-export class CiteComponent implements OnInit {
+export class CiteComponent {
   cite: Signal<Cite>;
   fail: Signal<boolean>;
   hide: Signal<boolean>;
@@ -16,9 +16,5 @@ export class CiteComponent implements OnInit {
     this.cite = this.citeServ.currentContent.asReadonly();
     this.fail = this.citeServ.fail.asReadonly();
     this.hide = this.citeServ.hide.asReadonly();
-  }
-
-  ngOnInit() {
-    this.citeServ.newCite();
   }
 }

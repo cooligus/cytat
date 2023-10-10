@@ -1,3 +1,6 @@
+<div *ngIf="fail()">
+  Błąd!
+</div>
 <div *ngIf="!fail()">
   <div
     [class]="hide() === true ? '' : 'hidden'"

@@ -3,7 +3,6 @@ import { CiteService } from './cite/cite.service';
 import { CiteParams } from './cite/cite-params';
 import {TreeNode} from 'primeng/api'
 import books from './cite/books';
-import { FavouritesService } from './favourites/favourites.service';
 import { NGXLogger } from 'ngx-logger';
 
 @Component({
@@ -18,10 +17,8 @@ export class AppComponent {
   nodes!: TreeNode[];
   selectedNodes!: TreeNode;
 
-  constructor(private citeServ: CiteService, private favServ: FavouritesService, private logger: NGXLogger) {
+  constructor(private citeServ: CiteService, private logger: NGXLogger) {
     this.citeParams = this.citeServ.paramsSig.asReadonly();
-    this.nodes = this.favServ.getSelect();
-    this.logger.debug(this.nodes);
     effect(() => {
       this.book = books[this.citeParams().book];
     });
